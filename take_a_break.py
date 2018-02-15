@@ -77,6 +77,7 @@ def setup_parser():
         help='number of breaks to take default is 1 ',
         type=str
     )
+    return parser
 
 if __name__ == "__main__":
     main()
