@@ -19,7 +19,7 @@ def main():
         print('Invalide url')
         break_url=input('entre your break url: ')
 
-    sleep_time = set_sleep_time(parsed.time)
+    sleep_time = set_sleep_time(parsed.time,parsed.unit)
 
     breaks_counter=0
     while breaks_counter < parsed.breaks:
